@@ -7,5 +7,8 @@
 # Unignore all dirs
 !*/
 
+# C/C++ files
+*.o
+
 # Cabal files
 dist-newstyle

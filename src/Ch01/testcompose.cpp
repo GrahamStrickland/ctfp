@@ -1,11 +1,9 @@
+#include "compose.h"
+
 #include <cassert>
 #include <cmath>
 #include <cstdlib>
 #include <numbers>
-
-template <typename F, typename G, typename T> T compose(F f, G g, T x) {
-  return f(g(x));
-}
 
 int main(int argc, char *argv[]) {
   using namespace std::numbers;

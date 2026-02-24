@@ -1,8 +1,7 @@
+#include "id.h"
+
 #include <cassert>
 #include <cmath>
-#include <cstdlib>
-
-template <typename T> T id_func(T x) { return x; }
 
 int main(int argc, char *argv[]) {
   assert(id_func(abs(-1)) == 1);
