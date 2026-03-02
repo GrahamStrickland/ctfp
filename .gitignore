@@ -12,3 +12,6 @@
 
 # Cabal files
 dist-newstyle
+
+# macOS files
+.DS_Store
