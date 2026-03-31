@@ -31,7 +31,7 @@ library
     import:           warnings
 
     -- Modules exported by the library.
-    exposed-modules:  CTFP, Ch01.ID
+    exposed-modules:  CTFP, Ch01.ID, Ch02.Fact, Ch02.Unit, Ch02.Bool
 
     -- Modules included in this library but not exported.
     -- other-modules:
